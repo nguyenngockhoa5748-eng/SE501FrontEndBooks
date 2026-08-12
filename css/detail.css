@@ -1,0 +1,96 @@
+:root{
+    --main-padding: 1rem;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col1{
+    width: 20%;
+    padding: var(--main-padding);
+}
+
+.col2{
+    width: 80%;
+    padding: var(--main-padding);
+}
+
+.col1 img{
+    max-width: 100%;
+}
+
+.table{
+    border-collapse: collapse ;
+}
+
+.rating{
+    list-style-type: none;
+    padding: 0;
+}
+
+.rating > li > a{
+    text-decoration: none;
+}
+
+.selected-rate{
+    color:gold;
+}
+
+.review-form textarea{
+    width: 100%;
+    height: 3.5rem;
+    padding: 5px;
+}
+
+.btn{
+    text-align: right;
+}
+
+.add-comment{
+    background-color: darkblue;
+    color: white;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.subtitle::after{
+    content: " "; 
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    display: block;
+    margin-top: 8px;
+}
+/*COMMENT*/
+.comment-list{
+    padding: 0;
+    list-style-type: none;
+}
+
+.col10{
+    width: 10%;
+}
+
+.col10 img{
+    width: 100%;
+    border-radius: 20%;
+}
+
+.col90{
+    width: 90%;
+    padding: var(--main-padding);
+}
+
+.comment{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: lightgray;
+    padding: var(--main-padding);
+}
+
+.comment p{
+    font-style: italic;
+}
