@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+.h-center{
+    justify-content: center;
+}
+
 .menu {
     background: linear-gradient(white, blue 70%);
     list-style-type: none;
@@ -140,3 +144,4 @@ footer > span {
     background-color: skyblue;
     border-color: blue;
 }
+
