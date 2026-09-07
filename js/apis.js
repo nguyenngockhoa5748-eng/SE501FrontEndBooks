@@ -59,7 +59,7 @@ window.onload = () => {
             b.innerHTML = html;
         }).then(() => {
             let close = document.getElementsByClassName('close');
-            for(let c of closes){
+            for(let c of close){
                 c.addEventListener('click', function() {
                     if(confirm('Bạn có chắc chắn xá không?') == true){
                        let id = this.getAttribute("rel");
@@ -76,8 +76,11 @@ window.onload = () => {
             }
         })
     }
+    
     //Nạp sách
-    loadBooksHTML();
+    window.onload = () => {
+        loadBooksHTML();
+    }
 
     //loadBooks().then(data => {
      //   let html = '';
